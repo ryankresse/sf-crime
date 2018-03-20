@@ -4,6 +4,7 @@
 ### Files
 * EDA_TIME.ipynb: an exploration of how crime varies by year, month, day and hour
 * EDA_LOCATION.ipynb: examining how crime varies geographically
-* machine_learning.ipynb: preparing the data and training a multinomial logistic regression classifier
+* logistic_regression.ipynb: preparing the data and training a multinomial logistic regression classifier
+
 [1]: https://www.kaggle.com/c/sf-crime
 
