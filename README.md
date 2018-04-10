@@ -10,7 +10,7 @@ Although some of the categories of crime occur only in certain locations, most o
 
 The frequency of crime in general peaks around noon and 6pm, but certain categories like fraud, narcotics and missing persons have peaks at other times as well.
 
-![Crime Density](https://raw.githubusercontent.com/ryankresse/sf-crime/master/imgs/crimes_by_hour.png)
+![Crime by hour](https://raw.githubusercontent.com/ryankresse/sf-crime/master/imgs/crimes_by_hour.png)
 
 As you can also see in the plot above, there are some outliers in the midnight hour when many crimes occurred. Specifically, these outliers occured on January 1 -- New Year's Eve.
 
@@ -19,13 +19,15 @@ Plotting the geographic distribution of crime versus time variables like year, m
 The most frequent location by far is the San Francisco Courthouse and sheriff's office. This could be due to some protocol for filling locations for crimes that don't otherwise have one. The distribution of crimes that 'occurred' at the courthouse differs 
 slightly from that of all the other locations, so it may be marginally helpful when building a model.
 
-![Crime Density](https://raw.githubusercontent.com/ryankresse/sf-crime/master/coords.png)
+![Courthouse](https://raw.githubusercontent.com/ryankresse/sf-crime/master/coords.png)
 
 
-#### Modeling
+## Modeling
 In logistic_regression.ipynb, I trained a logistic regression model to predict the probability of each category for each crime. One feature engineering step I borrowed from other competitors was to create a categorical variable for location by combining lattitude and longitude into a string, then encoding those strings as different levels.
 
+Below is a boxplot of my model's predicted probabilities for a validation set. Notice that the model thinks that larceny/theft (the most frequent category in our training set) is the correct category for nearly all of the examples. This speaks to the difficulty of the challenge -- my submission scored in the middle of the pack in the competition, yet for the validation set, it correctly predicted the right category only 20% of the time.
 
+![Probabilities](https://raw.githubusercontent.com/ryankresse/sf-crime/master/imgs/probs_by_cat.png)
 
 
 ### Files
