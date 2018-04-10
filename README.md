@@ -27,7 +27,7 @@ In logistic_regression.ipynb, I trained a logistic regression model to predict t
 
 Below is a boxplot of my model's predicted probabilities for a validation set. Notice that the model thinks that larceny/theft (the most frequent category in our training set) is the correct category for nearly all of the examples. This speaks to the difficulty of the challenge -- my submission scored in the middle of the pack in the competition, yet for the validation set, it correctly predicted the right category only 20% of the time.
 
-![Probabilities](https://raw.githubusercontent.com/ryankresse/sf-crime/master/imgs/probs_by_cat.png)
+![Probabilities](https://raw.githubusercontent.com/ryankresse/sf-crime/master/imgs/probs.png)
 
 
 ### Files
