@@ -19,7 +19,7 @@ Plotting the geographic distribution of crime versus time variables like year, m
 The most frequent location by far is the San Francisco Courthouse and sheriff's office. This could be due to some protocol for filling locations for crimes that don't otherwise have one. The distribution of crimes that 'occurred' at the courthouse differs 
 slightly from that of all the other locations, so it may be marginally helpful when building a model.
 
-![Crime Density](https://raw.githubusercontent.com/ryankresse/sf_crime/master/imgs/coords.png)
+![Crime Density](https://raw.githubusercontent.com/ryankresse/sf_crime/master/coords.png)
 
 
 #### Modeling
