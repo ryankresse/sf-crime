@@ -6,11 +6,11 @@ The challenge of the competition is to predict the category of a crime from when
 
 Although some of the categories of crime occur only in certain locations, most of the categories seem to spread across the map and overlap with each other, which will make classification difficult.
 
-![Crime Density](https://raw.githubusercontent.com/ryankresse/sf_crime/master/imgs/crime_density.png)
+![Crime Density](https://raw.githubusercontent.com/ryankresse/sf-crime/master/imgs/crime_density.png)
 
 The frequency of crime in general peaks around noon and 6pm, but certain categories like fraud, narcotics and missing persons have peaks at other times as well.
 
-![Crime Density](https://raw.githubusercontent.com/ryankresse/sf_crime/master/imgs/crimes_by_hour.png)
+![Crime Density](https://raw.githubusercontent.com/ryankresse/sf-crime/master/imgs/crimes_by_hour.png)
 
 As you can also see in the plot above, there are some outliers in the midnight hour when many crimes occurred. Specifically, these outliers occured on January 1 -- New Year's Eve.
 
@@ -19,7 +19,7 @@ Plotting the geographic distribution of crime versus time variables like year, m
 The most frequent location by far is the San Francisco Courthouse and sheriff's office. This could be due to some protocol for filling locations for crimes that don't otherwise have one. The distribution of crimes that 'occurred' at the courthouse differs 
 slightly from that of all the other locations, so it may be marginally helpful when building a model.
 
-![Crime Density](https://raw.githubusercontent.com/ryankresse/sf_crime/master/coords.png)
+![Crime Density](https://raw.githubusercontent.com/ryankresse/sf-crime/master/coords.png)
 
 
 #### Modeling
